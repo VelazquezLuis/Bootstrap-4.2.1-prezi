@@ -1,59 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- here is where the link tag goes in order to link and external files/cdn's -->
-    <link
-      rel="stylesheet"
-      href="./bootstrap-4.2.1-dist/css/bootstrap.min.css"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Content here -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar w/ text</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            Navbar text with an inline element
-          </span>
+
+<head>
+  <!-- here is where the link tag goes in order to link and external files/cdn's -->
+  <link rel="stylesheet" href="./bootstrap-4.2.1-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./solution.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>cafedoya</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Cafedoya</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Locations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <img class="img-fluid center-text logo" src="./images/safo-logo-nav.png" alt="cafe logo">
+        <span class="navbar-text">
+          Start our day Awoken!!
+        </span>
+      </div>
+    </nav>
+    <!-- nav -->
+  </header>
+  <main>
+    <div class="container-fuild">
+      <div class="row ">
+        <div class="col">
+          <div class="jumbotron text-white text-center" id="banner">
+            <h1 class="display-2">Best coffee out there</h1>
+            <p class="lead">We believe that coffee is more than just a drink: It’s a culture, an economy, an art, a
+              science — and a passion. </p>
+            <hr class="my-4">
+            <p>Try it out!!</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
         </div>
-      </nav>
+        <!-- col-12 -->
+      </div>
+      <!-- row -->
     </div>
-    <!--at the bottom before the </body> closing tag is where popper, jquery, and bootstrap js
+    <!-- cotainer -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="jumbotron" id="inset-1">
+            <h1 class="display-4"> Dark coffee </h1>
+
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+        <!-- col-12 col-md-6 -->
+        <div class="col-12 col-md-6">
+          <div class="jumbotron text-white" id="inset-2">
+            <h1 class="display-4"> French Vanilla</h1>
+
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+        <!-- col-12 col-md-6 -->
+        <div class="col-12 col-md-6">
+          <div class="jumbotron" id="inset-3">
+            <h1 class="display-4 text-white">Caramel Macchiato</h1>
+
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+        <!-- col-12 col-md-6 -->
+        <div class="col-12 col-md-6">
+          <div class="jumbotron" id="inset-4">
+            <h1 class="display-4">Pumpkin Spice</h1>
+
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </p>
+          </div>
+        </div>
+        <!-- col-12 col-md-6 -->
+      </div>
+      <!-- row -->
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron" id="banner-inset">
+            <h1 class="display-4 text-white">Just Drink It.</h1>
+
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row text-muted">
+        <div class="col-9 ">
+          <P>cafedoya is an made up brand for the purpose of this demo, but please download and customize it for
+            yourself!</P>
+        </div>
+        <!-- col-9 -->
+        <div class="col-3 ">
+          <p><a href="#">Back to top</a></p>
+        </div>
+        <!-- col-3 -->
+      </div>
+    </div>
+  </footer>
+
+  <!--at the bottom before the </body> closing tag is where popper, jquery, and bootstrap js
     files go. -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="./bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

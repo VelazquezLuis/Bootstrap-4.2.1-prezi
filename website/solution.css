@@ -1,0 +1,39 @@
+.logo {
+  width: 100px;
+}
+
+#banner {
+  background-image: url("./images/banner-inset-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#inset-1 {
+  background-image: url("./images/inset-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inset-2 {
+  background-image: url("./images/inset-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inset-3 {
+  background-image: url("./images/inset-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inset-4 {
+  background-image: url("./images/inset-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner-inset {
+  background-image: url("./images/Banner-inset-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
